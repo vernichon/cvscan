@@ -10,7 +10,7 @@ import logging
 # for fetching URLs from pdf
 from pdfminer.pdfpage import PDFPage
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 
 """
 

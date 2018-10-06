@@ -9,7 +9,7 @@ import logging
 
 from . import dirpath
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 DATAPATH = dirpath.PKGPATH + '/data/'
 
 """

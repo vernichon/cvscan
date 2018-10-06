@@ -16,14 +16,12 @@ LINES_BACK = 3
 
 # Methods
 def get_avoid_organizations():
-  with open(dirpath.PKGPATH +
-    '/data/organizations/avoid_organizations') as fp:
+  with open(dirpath.PKGPATH +'/data/organizations/avoid_organizations','rb') as fp:
     avoid_organizations = pickle.load(fp)
   return avoid_organizations
 
 def get_organizations():
-  with open(dirpath.PKGPATH +
-    '/data/organizations/explicit_organizations') as fp:
+  with open(dirpath.PKGPATH +'/data/organizations/explicit_organizations', 'rb') as fp:
     organizations = pickle.load(fp)
   return organizations
 

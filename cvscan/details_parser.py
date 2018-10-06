@@ -12,7 +12,7 @@ from . import configurations as regex
 
 from . import dirpath
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 
 """
 

@@ -15,7 +15,7 @@ import csv
 from . import utilities
 from . import dirpath
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 
 prenoms =[]
 villes = []
